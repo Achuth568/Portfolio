@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin: 10;
+    padding: 20;
+}
+
+
+
+.sidebar{
+    position: absolute;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    height: 100vh;
+    font-family: 'Merriweather', serif;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+padding: 45px;
+}
+.sidebar nav li{
+list-style-type: none;
+font-size: 20px;
+padding : 33px 0;
+}
+
+.sidebar  nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    background: rgb(2,0,36);
+    background: linear-gradient(175deg,rgba(2,0,36,1)0%,rgba(108,108,185,1)50%,rgba(0,212,255,1)100%);
+    width: 100vw;
+}
+
+.container{
+    display:flex;
+}
+.infocontainer{
+    height: 65vh;
+    width:80vw ;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    margin-left: 65px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name{
+    margin-left: 60px;
+}
+.moreabout{
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,1)), linear-gradient(to top, rgba(0,0,0,0.1), rgba(0,0,0,0.3));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    margin: 50px;
+    padding: 50px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+.hello{
+    font-size:70px ;
+}
+.name{font-size:  50px;
+font-weight: bold;}
+.about{font-size: 35px;}
+.moreabout{
+    font-size: 22px;
+    font-family:'Merriweather', serif ;
+}
+
+.buttons{
+    margin-left: 130px;
+    margin-top: 34px;
+}
+
+.btn{
+    padding: 20px 14px;
+    border-radius: 22px ;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.btn:hover{
+    
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+.devpic img{
+    height: 58vh;
+
+
+}
+
+.contactform {
+    background: linear-gradient(175deg,rgba(39,9,121,1)0%,rgb(110, 110, 164)50%,rgb(163, 171, 173)100%);
+    padding: 0 35px;
+    padding-top: 144px;
+    font-family:'Merriweather', serif ;
+    height: 83vh;
+
+}
+.contactform h1{
+
+    padding: 12px 0;
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size:11px ;
+    color: midnightblue;
+    margin:0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 30px;
+    margin: 3px 0;
+
+}
+.blogcontainer{
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    height :100vh;
+    padding :0 35px;
+    padding-top: 35px;
+}
+.blogitem {
+    margin: 20px;
+    font-family:'Merriweather', serif ;
+
+}
+h1{
+    font-family:'Merriweather', serif ;
+    margin: 40px;
+
+}
+h2{
+    font-family:'Merriweather', serif ;
+    
+
+}
+p{
+    font-family:'Merriweather', serif ;
+}
+.intro{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+    padding-top: 35px;
+
+
+    height: 120vh;
+}
+.intro h2{
+    font-family:'Merriweather', serif ;
+    margin : 40px;
+    margin-bottom: 20px;
+
+}
+.intro p{
+    
+    font-family: 'Open Sans', sans-serif;
+    margin: 8px;
+    margin-left: 40px;
+
+}
+.skillcontainer{
+    
+    margin-left: 40px;
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+.skill{
+    width: 265px;
+    height: 10px;
+    background-color: red;
+    border: 2px solid black
+}
+.hundered{
+    width:265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width:125px;
+    background-color: aqua;
+}
+.t5{
+    width:75px;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger
+{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 180px;
+    margin: 10px;
+}
+@media (max-width:1200px){
+    *{background-color: grey;
+    }
+    .devpic{
+        display: none;
+    }
+    .sidebar{
+        transform: translate(-443px,0px);
+        position:absolute;
+    }
+}
+
+.skillcontainer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.skillcontainer li {
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	transition: transform 0.3s, box-shadow 0.3s;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	line-height: 1.5;
+	text-align: center;
+	min-width: 120px;
+	min-height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.skillcontainer li:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.skillcontainer li::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	background: linear-gradient(to bottom right, #1abc9c, #3498db);
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.skillcontainer li:hover::before {
+	opacity: 0.8;
+}
+
+.skillcontainer span {
+	margin-top: 10px;
+}
+
+ .skillcontainer img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.javaimg{
+    height: 20vh;
+    filter: brightness(50%);
+}
+.jdbcimg{
+    height :20vh;
+    filter: brightness(70%);
+}
+.sqlimg{
+    height :20vh;
+    filter: brightness(70%);
+}
+
+.oracleimg{
+    height :20vh;
+    filter: brightness(100%);
+}
+.htmlimg{
+    height :20vh;
+    filter: brightness(100%);
+}
+.cssimg{
+    height :20vh;
+    filter: brightness(100%);
+}
+.manualimg{
+    height :20vh;
+    filter: brightness(100%);
+}
+.gmail-button {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    background-color: #D44638;
+    padding: 10px 40px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .gmail-button:hover {
+    background-color: #FFA140;
+  }
+  
+  .gmail-button .gmail-icon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to bottom right, #D44638, #FFA140);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .gmail-button .gmail-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gmail-button:hover .gmail-icon img {
+    transform: scale(1.2);
+  }
+  .gmail-button span {
+    vertical-align: middle;
+  }
+  .github-button {
+
+    justify-content: space-between;
+    background: linear-gradient(135deg, #3F51B5, #2196F3);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 20px 15px;
+    transition: background 0.3s ease;
+  }
+  
+  .github-button:hover {
+    background: linear-gradient(135deg, #2196F3, #3F51B5);
+  }
+  
+  .github-button img {
+    margin-left: 10px;
+    
+  }
+   .contactform .github-button{
+    margin-left: 70px;
+   }
+   .contactform .gmail-button{
+    margin-left: 500px;
+   }
